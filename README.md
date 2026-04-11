@@ -83,21 +83,6 @@ Try the live prediction model here:
 
 [![Open Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://nvidia-stock-price-predictor.streamlit.app/) 
 
-<div align="center">
-  <table>
-    <tr>
-      <th>📈 Historical Trends Analysis</th>
-      <th>🔮 Future Price Forecasting</th>
-    </tr>
-    <tr>
-      <td><img src="https://raw.githubusercontent.com/MarpakaPradeepSai/Employee-Churn-Prediction/main/Data/Images%20&%20GIFs/placeholder_gif.gif" alt="Historical Analysis" width="470"/></td>
-      <td><img src="https://raw.githubusercontent.com/MarpakaPradeepSai/Employee-Churn-Prediction/main/Data/Images%20&%20GIFs/placeholder_gif.gif" alt="Future Prediction" width="470"/></td>
-    </tr>
-  </table>
-</div>
-
-> Interact with historical data, apply moving averages, and visualize the LSTM model's 10-day future forecast!
-
 <br>
 
 ---
