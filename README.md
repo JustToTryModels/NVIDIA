@@ -400,7 +400,7 @@ After selecting the best LSTM model, it was used to generate a **10-day forward 
 1. **Clone the repository**
    ```bash
    git clone https://github.com/MarpakaPradeepSai/NVIDIA-Stock-Price-Predictor.git
-   cd NVIDIA-Stock-Price-Prediction
+   cd NVIDIA-Stock-Price-Predictor
    ```
 
 2. **Create a virtual environment (optional but recommended)**
