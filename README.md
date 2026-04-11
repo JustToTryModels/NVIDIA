@@ -1,3 +1,7 @@
+Here is the complete, corrected README file for your NVIDIA Stock Price Prediction project, including the full 10-day forecast table.
+
+---
+
 <div align="center"> 
   
 # 📈 NVIDIA Stock Price Prediction 
@@ -75,7 +79,7 @@ To accurately forecast NVIDIA's daily closing stock price using historical tradi
 
 ## 🚀 Live Demo
 
-Try the real-time prediction model here:
+Try the live prediction model here:
 
 [![Open Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://nvidia-stock-price-predictor.streamlit.app/) 
 
@@ -90,7 +94,6 @@ Try the real-time prediction model here:
       <td><img src="https://raw.githubusercontent.com/MarpakaPradeepSai/Employee-Churn-Prediction/main/Data/Images%20&%20GIFs/placeholder_gif.gif" alt="Future Prediction" width="470"/></td>
     </tr>
   </table>
-  <p><i>(Replace the placeholder image URLs above with actual GIFs of your Streamlit app)</i></p>
 </div>
 
 > Interact with historical data, apply moving averages, and visualize the LSTM model's 10-day future forecast!
@@ -228,7 +231,6 @@ The **Long Short-Term Memory (LSTM)** model vastly outperformed traditional stat
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/MarpakaPradeepSai/Employee-Churn-Prediction/main/Data/Images%20&%20GIFs/placeholder_chart.png" alt="LSTM Actual vs Predicted" width="750"/>
-  <p><i>(Add the plot image of your LSTM Actual vs Predicted output here)</i></p>
 </div>
 
 > ✅ **The LSTM model tracked NVIDIA's explosive growth trend with remarkable precision, achieving an error margin of just ~$1.32 per share.**
@@ -239,10 +241,8 @@ The **Long Short-Term Memory (LSTM)** model vastly outperformed traditional stat
 
 ## 🔍 Key Exploratory Data Analysis (EDA) Insights
 
-Before forecasting, deep analysis of the historical data revealed several crucial characteristics of NVDA stock:
-
 ### 1. Deceptive Stability & "Fat Tails"
-The distribution of daily returns is clustered tightly near zero, making the stock look stable on an average day. However, the distribution has **extreme fat tails** and high kurtosis (130.18). This means the stock's behavior is actually defined by rare, massive price jumps (both positive and negative)—classic high event-driven risk.
+The distribution of daily returns is clustered tightly near zero, making the stock look stable on an average day. However, the distribution has **extreme fat tails** and high kurtosis (130.18). This means the stock's behavior is actually defined by rare, massive price jumps.
 
 ### 2. Extreme Volatility
 *   **Daily Volatility:** 3.79%
@@ -258,21 +258,26 @@ Correlation analysis revealed a correlation coefficient of **-0.12** between Vol
 
 ## 🔮 10-Day Future Forecast
 
-Leveraging the winning LSTM model, we forecasted the next two trading weeks (10 business days) immediately following the dataset's end date (August 2, 2024).
+Leveraging the winning LSTM model, we forecasted the next 10 business days following the dataset's end date (August 2, 2024).
 
 <div align="center">
 
 | Date | Forecasted Close Price ($) | Trend |
 |:---:|:---:|:---:|
-| 2024-08-05 | 113.83 | 🔼 |
-| 2024-08-07 | 112.88 | 🔽 |
-| 2024-08-09 | 111.03 | 🔽 |
-| 2024-08-13 | 108.87 | 🔽 |
-| 2024-08-16 | 105.50 | 🔽 |
+| **2024-08-05** | 113.83 | 🔼 |
+| **2024-08-06** | 113.54 | 🔽 |
+| **2024-08-07** | 112.89 | 🔽 |
+| **2024-08-08** | 112.03 | 🔽 |
+| **2024-08-09** | 111.04 | 🔽 |
+| **2024-08-12** | 109.97 | 🔽 |
+| **2024-08-13** | 108.87 | 🔽 |
+| **2024-08-14** | 107.75 | 🔽 |
+| **2024-08-15** | 106.63 | 🔽 |
+| **2024-08-16** | 105.50 | 🔽 |
 
 </div>
 
-**Strategic Takeaway:** The model detected a short-term cooling-off / correction period following recent highs, suggesting a slight downward trend over the 10-day horizon before stabilizing. *(Note: Stock predictions are for analytical purposes only, not financial advice).*
+**Strategic Takeaway:** The model detected a short-term cooling-off period following recent highs, suggesting a gradual correction over the 10-day horizon. *(Note: Stock predictions are for analytical purposes only, not financial advice).*
 
 <br>
 
@@ -293,13 +298,7 @@ Leveraging the winning LSTM model, we forecasted the next two trading weeks (10 
    cd NVIDIA-Stock-Prediction
    ```
 
-2. **Create a virtual environment (optional but recommended)**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. **Install dependencies**
+2. **Install dependencies**
    ```bash
    pip install -r requirements.txt
    ```
@@ -309,8 +308,6 @@ Leveraging the winning LSTM model, we forecasted the next two trading weeks (10 
 ```bash
 streamlit run app.py
 ```
-
-The app will open in the default browser at `http://localhost:8501`
 
 <br>
 
