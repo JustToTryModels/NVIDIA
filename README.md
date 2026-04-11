@@ -38,10 +38,6 @@ A comprehensive time series forecasting project that analyzes and predicts **NVI
 
 ## ❓ What is Stock Price Prediction?
 
-<div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/NVIDIA_logo.svg/1920px-NVIDIA_logo.svg.png" alt="NVIDIA Logo" width="400"/>
-</div>
-
 <br>
 
 **Stock price prediction** is the practice of forecasting future stock values using historical data, statistical methods, and machine learning algorithms. Key approaches include:
@@ -64,6 +60,10 @@ A comprehensive time series forecasting project that analyzes and predicts **NVI
 ---
 
 ## 🎯 Why NVIDIA?
+
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/NVIDIA_logo.svg/1920px-NVIDIA_logo.svg.png" alt="NVIDIA Logo" width="400"/>
+</div>
 
 NVIDIA presents a compelling subject for stock price analysis due to several key factors:
 
